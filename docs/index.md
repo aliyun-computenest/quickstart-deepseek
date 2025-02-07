@@ -1,9 +1,8 @@
-# DeepSeek社区版版部署文档
+# DeepSeek社区版部署文档
 
-## 服务介绍
-### DeepSeek-R1简介
+## DeepSeek-R1简介
 DeepSeek-R1是深度求索（DeepSeek）于2025年1月20日发布的开源人工智能大型语言模型。在数学、代码及推理任务上的表现与 OpenAI-o1 旗鼓相当。 DeepSeek-R1(7b)是 DeepSeek R1 的中端版本。其设计目标是将 DeepSeek R1 的强大推理能力转移到更小的模型中，以提高计算效率和部署灵活性。
-### Open WebUI和Ollama简介
+## Open WebUI和Ollama简介
 
 Open WebUI 是一个功能丰富且用户友好的自托管 Web 用户界面（WebUI），它被设计用于与大型语言模型（LLMs）进行交互，特别是那些由 Ollama 或与 OpenAI API 兼容的服务所支持的模型。
 
@@ -31,8 +30,6 @@ DeepSeek社区版在阿里云上的费用主要涉及：
 
 
 ## 部署流程
-
-### 部署步骤
 
 1. 单击[部署链接](https://market.aliyun.com/shop/confirm_order.html?spm=5176.product-detail.buy.btn&spmPre=&scm=&orderData=eyJvcmRlckRhdGEiOlt7ImNvbW1vZGl0eUNvZGUiOiJjbG91ZG1hcmtldCIsImRhdGEiOnsicHJvZHVjdF9jb2RlIjoiY21najAwMDY5NTIwIiwic2t1IjoiY21najAwMDY5NTIwLXByZXBheSIsImR1cmF0aW9uIjoiMTAwIiwicHJpY2luZ0N5Y2xlIjoiWWVhciIsInF1YW50aXR5IjoxLCJvcmRlclR5cGUiOiJidXkiLCJjaGFyZ2VUeXBlIjoiUFJFUEFZIiwicXVlcnlQcm9tb3Rpb24iOnRydWV9LCJjb21wb25lbnRzIjp7Im9yZGVyX251bSI6MSwib3JkX3RpbWUiOiIxMDA6WWVhciIsInBhY2thZ2VfdmVyc2lvbiI6Inl1bmNvZGU2MzUyMDAwMDAxIn19XSwiYWRkaXRpb25hbERhdGEiOnsibHNwTG9jYXRpb24iOiIiLCJjb21wdXRlTmVzdFR5cGUiOiJwcml2YXRlIiwiY29tcHV0ZU5lc3RTZXJ2aWNlSWQiOiJzZXJ2aWNlLTQxYWQ1ODQzOWI0YjRiZjhhZTczIiwiYmlnZGlwcGVyX3NvdXJjZSI6eyJhY3Rpb25Tb3VyY2UiOiJ4SmlVR2Z6VDciLCJhcGx1c19sb2dfaWQiOiI0ZmUzNmEzYWRLWWx6TyIsInNwbVByZSI6IiIsInNjbSI6IiJ9fX0=)，进入服务实例部署界面，根据界面提示填写参数，可以看到对应询价明细，确认参数后点击**下一步：确认订单**
     ![deploy.png](1.jpg)
