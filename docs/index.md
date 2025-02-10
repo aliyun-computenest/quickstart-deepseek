@@ -31,7 +31,7 @@ DeepSeek社区版在阿里云上的费用主要涉及：
 
 ## 部署流程
 
-1. 单击[部署链接](https://computenest.console.aliyun.com/service/instance/create/cn-hangzhou?type=user&ServiceName=DeepSeek%20R1)，进入服务实例部署界面，根据界面提示填写参数，可以看到对应询价明细，确认参数后点击**下一步：确认订单**。⚠️：如果要使用70B的模型，推荐选用64GB以上显存的规格
+1. 单击[部署链接](https://computenest.console.aliyun.com/service/instance/create/cn-hangzhou?type=user&ServiceName=DeepSeek%20R1)，进入服务实例部署界面，根据界面提示填写参数，可以看到对应询价明细，确认参数后点击**下一步：确认订单**。注意：如果要使用70B的模型，推荐选用64GB以上显存的规格
     ![deploy.png](1.jpg)
 
 2. 确认订单完成后同意服务协议并点击**立即创建**。
