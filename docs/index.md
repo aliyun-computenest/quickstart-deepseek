@@ -31,7 +31,7 @@ DeepSeek社区版在阿里云上的费用主要涉及：
 
 ## 部署流程
 
-1. 单击[部署链接](https://market.aliyun.com/shop/confirm_order.html?spm=5176.product-detail.buy.btn&spmPre=&scm=&orderData=eyJvcmRlckRhdGEiOlt7ImNvbW1vZGl0eUNvZGUiOiJjbG91ZG1hcmtldCIsImRhdGEiOnsicHJvZHVjdF9jb2RlIjoiY21najAwMDY5NTIwIiwic2t1IjoiY21najAwMDY5NTIwLXByZXBheSIsImR1cmF0aW9uIjoiMTAwIiwicHJpY2luZ0N5Y2xlIjoiWWVhciIsInF1YW50aXR5IjoxLCJvcmRlclR5cGUiOiJidXkiLCJjaGFyZ2VUeXBlIjoiUFJFUEFZIiwicXVlcnlQcm9tb3Rpb24iOnRydWV9LCJjb21wb25lbnRzIjp7Im9yZGVyX251bSI6MSwib3JkX3RpbWUiOiIxMDA6WWVhciIsInBhY2thZ2VfdmVyc2lvbiI6Inl1bmNvZGU2MzUyMDAwMDAxIn19XSwiYWRkaXRpb25hbERhdGEiOnsibHNwTG9jYXRpb24iOiIiLCJjb21wdXRlTmVzdFR5cGUiOiJwcml2YXRlIiwiY29tcHV0ZU5lc3RTZXJ2aWNlSWQiOiJzZXJ2aWNlLTQxYWQ1ODQzOWI0YjRiZjhhZTczIiwiYmlnZGlwcGVyX3NvdXJjZSI6eyJhY3Rpb25Tb3VyY2UiOiJ4SmlVR2Z6VDciLCJhcGx1c19sb2dfaWQiOiI0ZmUzNmEzYWRLWWx6TyIsInNwbVByZSI6IiIsInNjbSI6IiJ9fX0=)，进入服务实例部署界面，根据界面提示填写参数，可以看到对应询价明细，确认参数后点击**下一步：确认订单**
+1. 单击[部署链接](https://computenest.console.aliyun.com/service/instance/create/cn-hangzhou?type=user&ServiceName=DeepSeek%20R1)，进入服务实例部署界面，根据界面提示填写参数，可以看到对应询价明细，确认参数后点击**下一步：确认订单**。⚠️：如果要使用70B的模型，推荐选用64GB以上显存的规格
     ![deploy.png](1.jpg)
 
 2. 确认订单完成后同意服务协议并点击**立即创建**。
@@ -44,7 +44,7 @@ DeepSeek社区版在阿里云上的费用主要涉及：
 1. 访问概览页的**公网OpenWebUI地址**，注册管理员账号并登录。
     ![longin.png](4.jpg)
 
-2. 登录成功后即可使用内置的DeepSeek-R1模型进行对话啦。
+2. 登录成功后即可使用默认的deepseek-r1:7b模型进行对话。本服务内置了截图所示的几种参数规模的模型，默认使用7B模型，可以选择下面其他参数规模的模型。请根据购买的ECS规格显存大小进行选择，模型参数规模越大需要的显存越高，启动加载、推理会更慢，推理结果越精确智能。
     ![chat.png](5.jpg)
 
 ### 私网API地址
