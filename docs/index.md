@@ -1,4 +1,4 @@
-# DeepSeek R1部署文档
+# DeepSeek R1单机版部署文档
 
 ## DeepSeek-R1简介
 DeepSeek-R1是深度求索（DeepSeek）于2025年1月20日发布的开源人工智能大型语言模型。在数学、代码及推理任务上的表现与 OpenAI-o1 旗鼓相当。 DeepSeek-R1(7b)是 DeepSeek R1 的中端版本。其设计目标是将 DeepSeek R1 的强大推理能力转移到更小的模型中，以提高计算效率和部署灵活性。
@@ -31,7 +31,7 @@ DeepSeek社区版在阿里云上的费用主要涉及：
 
 ## 部署流程
 
-1. 单击[部署链接](https://computenest.console.aliyun.com/service/instance/create/cn-hangzhou?type=user&ServiceName=DeepSeek%20R1)，进入服务实例部署界面，根据界面提示填写参数，可以看到对应询价明细，确认参数后点击**下一步：确认订单**。注意：如果要使用70B的模型，推荐选用64GB以上显存的规格
+1. 单击[部署链接](https://computenest.console.aliyun.com/service/instance/create/cn-hangzhou?type=user&ServiceName=DeepSeek%20R1)，进入服务实例部署界面，模板选择ollama单机版，根据界面提示选择模型并填写参数，可以看到对应询价明细，确认参数后点击**下一步：确认订单**。注意：如果要使用70B的模型，推荐选用64GB以上显存的规格
     ![deploy.png](1.jpg)
 
 2. 确认订单完成后同意服务协议并点击**立即创建**。
